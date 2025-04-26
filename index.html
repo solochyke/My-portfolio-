@@ -1,98 +1,111 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>www.portsolofolio.com</title>
+    <title>Solomon Chyke - Freelance Web Developer & Programmer</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Smartsupp Live Chat script -->
-<script type="text/javascript">
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = '81470b62a8febcdaa2cbb3690200c256be628e05';
-window.smartsupp||(function(d) {
-	var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-	s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-	c.type='text/javascript';c.charset='utf-8';c.async=true;
-	c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-</script>
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '81470b62a8febcdaa2cbb3690200c256be628e05';
+        window.smartsupp||(function(d) {
+            var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+            s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+            c.type='text/javascript';c.charset='utf-8';c.async=true;
+            c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+        })(document);
+    </script>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <header class="site-header">
+        <nav class="site-navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="home">
-        <h1>Welcome to my portfolio!</h1>
-        <p>I'm Solomon chyke, a freelance web developer and programmer.</p>
-        <button>Learn More</button>
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Crafting Digital Experiences</h1>
+            <p class="hero-subtitle">Solomon Chyke - Freelance Web Developer & Programmer</p>
+            <a href="#about" class="button primary-button">Learn More</a>
+        </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>As a seasoned freelance web developer and programmer, I bring a passion for crafting innovative digital solutions to life. With expertise in HTML, CSS, JavaScript, and various frameworks, I deliver high-quality web applications and websites that exceed client expectations.</p>
-        <img src="IMG_20240129_131909.png">
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <div class="project">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="project">
-                <img src="project2.jpg" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="project">
-                <img src="project3.jpg" alt="Project 3">
-                <h3>Project 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-description">A dedicated freelance web developer and programmer with a strong passion for building user-centric and efficient digital solutions. My expertise spans front-end technologies such as HTML, CSS, and JavaScript, complemented by experience with modern frameworks. I am committed to delivering high-quality web applications and websites that not only meet but exceed client expectations through clean, well-documented, and scalable code.</p>
+                <div class="profile-image-container">
+                    <img src="IMG_20240129_131909.png" alt="Solomon Chyke Profile" class="profile-image">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Get in Touch</h2>
-        
-        <pre>
-Let's connect and explore how I can help bring your vision to life.
-I'm looking forward to hearing from you and exploring how we can work together to create something amazing! </pre>
-        <form>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea placeholder="Message"></textarea>
-            <button>Send</button>
-        </form>
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <img src="project1.jpg" alt="Project 1" class="project-image">
+                    <div class="project-details">
+                        <h3 class="project-title">Project 1</h3>
+                        <p class="project-description">A concise description of Project 1, highlighting its key features and technologies used.</p>
+                        </div>
+                </article>
+                <article class="project-card">
+                    <img src="project2.jpg" alt="Project 2" class="project-image">
+                    <div class="project-details">
+                        <h3 class="project-title">Project 2</h3>
+                        <p class="project-description">A brief overview of Project 2, emphasizing its objectives and outcomes.</p>
+                        </div>
+                </article>
+                <article class="project-card">
+                    <img src="project3.jpg" alt="Project 3" class="project-image">
+                    <div class="project-details">
+                        <h3 class="project-title">Project 3</h3>
+                        <p class="project-description">Details about Project 3, including the challenges addressed and the solutions implemented.</p>
+                        </div>
+                </article>
+            </div>
+        </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2020 Solomon Chyke. All rights reserved.</p>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/[your-linkedin-handle]">LinkedIn</a></li>
-            <li><a href="https://www.github.com/[your-github-handle]">GitHub</a></li>
-        </ul>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-intro">Let's collaborate and bring your digital ideas to fruition. I'm eager to discuss your project requirements and explore how my skills can contribute to your success.</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required class="form-control">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required class="form-control"></textarea>
+                </div>
+                <button type="submit" class="button primary-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="copyright">&copy; 2020 Solomon Chyke. All rights reserved.</p>
+            <ul class="social-links">
+                <li class="social-item"><a href="https://www.linkedin.com/in/[your-linkedin-handle]" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a></li>
+                <li class="social-item"><a href="https://www.github.com/[your-github-handle]" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a></li>
+            </ul>
+        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-
